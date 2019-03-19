@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sayoxiao Notes</title>
+  <link rel="icon" href="images/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      //themeColor: '#19BE6B',
+      repo: '',
+      loadNavbar: true
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'abfba543e14a2f16d4ec',
+      clientSecret: 'c7e59e02eef0229945fce38d6b7f05dee5d12131',
+      repo: 'sayoxiao.github.io',
+      owner: 'sayoxiao',
+      admin: ['sayoxiao'],
+      // facebook-like distraction free mode
+      distractionFreeMode: true
+    })
+  </script>
+</body>
+</html>
+
