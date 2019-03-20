@@ -1,6 +1,6 @@
 * [首页](/)
 * [LINUX笔记](linux.md)
-* [JAVA笔记](java.md)
+* [一日一話](ichinichiiwa.md)
 * [EMACS笔记](emacs.md)
 * [GIT笔记](git.md)
 * [OTHER笔记](other.md)
