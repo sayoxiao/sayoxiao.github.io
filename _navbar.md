@@ -1,4 +1,4 @@
 * [首页](/)
-* [LINUX笔记](linux.md)
+* [诗词集](shici.md)
 * [一日一話](ichinichiiwa.md)
 
